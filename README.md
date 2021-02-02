@@ -11,7 +11,7 @@ This monorepo contains three packages: `packageA`, `packageB`, and
 `packageA`, and `packageC` depends on `packageB`.
 
 The Dockerfile first adds all files that are needed for Yarn to
-install dependencies, and then runs `yarn` to do so.  It the first
+install dependencies, and then runs `yarn` to do so.  It then first
 builds `packageA` which has no dependencies. Then it builds
 `packageB`, which depends on `packageA`, which has already been
 built. Finally, it builds `packageC`.
