@@ -1,0 +1,10 @@
+{
+  "name": "packageC",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cat README"
+  },
+  "dependencies": {
+    "packageB": "*"
+  }
+}
